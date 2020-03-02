@@ -4,4 +4,4 @@ setTimeout(() => {
   console.log("2 secs");
 }, 2000);
 
-console.log("Stopping");
+console.log("Stoppping");
