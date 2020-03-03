@@ -1,7 +1,7 @@
-console.log("Starting");
+const request = require('request')
 
-setTimeout(() => {
-  console.log("2 secs");
-}, 4000);
+const url
 
-console.log("Stoppping");
+request({url: url}, (error, response) => {
+     console.log(response)
+})
