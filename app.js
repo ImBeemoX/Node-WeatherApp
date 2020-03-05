@@ -3,7 +3,7 @@ const request = require('request')
 const url
 
 request({url: url}, (error, response) => {
-  const data = JSON.parse(response.body)
+  const dataList = JSON.parse(response.body)
      console.log(response)
      console.log(error)
 })
